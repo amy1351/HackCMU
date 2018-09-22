@@ -79,6 +79,12 @@ body {
 	left: 10%
 }
 
+.find {
+	position: relative; /* or absolute */
+	top: 40%;
+	left: 20%;
+}
+
 .welcome {
   height: 100%;
   width: calc(var(--device__aspect-ratio) * 100vh);
