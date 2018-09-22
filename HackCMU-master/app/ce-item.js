@@ -58,7 +58,7 @@ customElements.define('tinderforbananas-item', class extends HTMLElement {
   _updateBindings() {
     this.querySelector('.item__details__name').textContent = `${this.data.name}`;
     this.querySelector('.item__details__age').textContent = `${this.data.year}`;
-    this.querySelector('.item__details__job').textContent = `${this.data.level}`;
+    this.querySelector('.item__details__job').textContent = `workout level: ${this.data.level}`;
     this.querySelector('picture').style.backgroundImage = `url('${this.data.images[this.selected]}')`;
   }
 

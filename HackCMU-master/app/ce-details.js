@@ -28,8 +28,8 @@ customElements.define('tinderforbananas-details', class extends HTMLElement {
     }
     this.querySelector('.item__details__name').textContent = this.data.name;
     this.querySelector('.item__details__age').textContent = this.data.year;
-    this.querySelector('.item__details__job').textContent = this.data.level;
-    this.querySelector('.item__details__distance').textContent = `${this.data.availability} miles away`;
+    this.querySelector('.item__details__job').textContent = `level: ${this.data.level}`;
+    this.querySelector('.item__details__distance').textContent = `availability: ${this.data.availability}`;
     this.querySelector('.description').textContent = this.data.description;
   }
 });
